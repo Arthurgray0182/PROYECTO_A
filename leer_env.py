@@ -11,6 +11,8 @@ env = os.getenv("produccion")
 print(f"Base de datos: {database}")
 print(f"Modo debug: {debug}")
 print(f"Entorno: {env}")
-print(os.getenv("API_KEY"))
-print("configuracion cargada correctamente")
 
+def mostrar_mensaje():
+    print("configuracion completada correctamente")
+
+mostrar_mensaje()
